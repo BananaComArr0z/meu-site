@@ -1,0 +1,72 @@
+/* Resetando algumas propriedades padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-style: italic;
+}
+
+/* Seções da proposta */
+.proposta, .observacoes {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.details {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Observações */
+.observations-list {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.observations-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
